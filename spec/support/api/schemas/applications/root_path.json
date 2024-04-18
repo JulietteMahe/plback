@@ -1,0 +1,11 @@
+{
+  "type" : "object",
+  "properties" : {
+    "Environment" : { "type" : "string", "default" : "test" },
+    "ApiVersion" : { "type" : "string", "default" : "v1" }
+  },
+  "required" : [
+    "Environment",
+    "ApiVersion"
+  ]
+}

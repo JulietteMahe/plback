@@ -1,0 +1,15 @@
+---
+
+development:
+  clients:
+    default:
+      database: DEVEVELOPMENT_PL
+      hosts:
+        - mongo:27017
+
+test:
+  clients:
+    default:
+      database: TEST_PL
+      hosts:
+        - mongo:27017
